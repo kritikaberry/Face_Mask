@@ -4,7 +4,6 @@ import numpy as np
 
 model=load_model('model-017.model')
 face_cascade=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-mouth_cascade=cv2.CascadeClassifier('haarcascade_mcs_mouth.xml')
 labels={0:'Stay Safe!',1:'Wear a mask!'}
 color={0:(0,255,0),1:(0,0,255)}
 
