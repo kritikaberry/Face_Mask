@@ -27,3 +27,5 @@ def video_feed():
 def video_feed2():
 	video_stream=VideoCamera2()
 	return Response(gen(video_stream),mimetype='multipart/x-mixed-replace; boundary=frame')
+
+
